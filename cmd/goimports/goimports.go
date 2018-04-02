@@ -37,8 +37,8 @@ var (
 	memProfileRate = flag.Int("memrate", 0, "if > 0, sets runtime.MemProfileRate")
 
 	options = &imports.Options{
-		TabWidth:  8,
-		TabIndent: true,
+		TabWidth:  2,
+		TabIndent: false,
 		Comments:  true,
 		Fragment:  true,
 	}
