@@ -102,11 +102,11 @@ func Process(filename string, src []byte, opt *Options) ([]byte, error) {
 		}
 	}
 
+	return out, nil
 	// out, err = format.Source(out)
 	// if err != nil {
 	// 	return nil, err
 	// }
-	// return out, nil
 }
 
 // parse parses src, which was read from filename,
